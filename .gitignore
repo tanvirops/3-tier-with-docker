@@ -1,5 +1,4 @@
 # Environment files with secrets
-.env
 !.env.example
 
 # Docker volumes data
@@ -13,7 +12,6 @@ logs/
 # OS files
 .DS_Store
 Thumbs.db
-.vscode/
 .idea/
 
 # Node modules (should be in backend/frontend .gitignore too)
@@ -52,3 +50,4 @@ temp/
 /start.sh
 /stop.ps1
 /stop.sh
+config.bat
